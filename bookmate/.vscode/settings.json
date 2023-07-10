@@ -1,0 +1,18 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "bookmate",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "Users",
+            "username": "root",
+            "name": "localhost",
+            "password": ""
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+.backg{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(bg.BM.png);
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+}
+
+.card-body{
+    background-color: #000;
+    text-align: center;
+    height: 60px;
+    font-size: 70px;
+    opacity: 0.8;
+}
+
+.card-body h2{
+    color:rgb(245, 246, 247);
+    -webkit-text-stroke-width: 1px;   
+    -webkit-text-stroke-color: rgb(249, 247, 247); 
+}
+
+.form{
+    width: 290px;
+    height: 600px;
+    background: rgb(246, 245, 244);
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: 22px;
+    background-color: rgb(245, 238, 238);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #060606;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(7, 7, 7);
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #080808;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: rgb(57, 56, 56);
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #f4f3f3;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(1, 1, 1);
+}
+.form .link a{
+    text-decoration: none;
+    color: #107be0;
+}
+.par{
+    color: #f4eded;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    padding-top:50px;
+    margin-left: 670px;
+    text-shadow: 1px 1px 3px rgb(8, 8, 8);
+}

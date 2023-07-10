@@ -1,0 +1,47 @@
+.backg{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+}
+
+.card-body{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    height: 60px;
+    font-size: 70px;
+}
+
+.card-body h2{
+    color:rgb(245, 246, 247);
+    -webkit-text-stroke-width: 1px;   
+    -webkit-text-stroke-color: rgb(249, 247, 247); 
+}
+
+.text-box{
+    width: 500px;
+}
+.titl{
+    margin-left: 570px;
+    margin-top: 70px;
+}
+.search-text{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.table{
+    margin-top: 60px;
+    margin-left: 300px;
+    border-radius: 10px;
+    border-color: #0a0a0a;
+
+}
+.statusA{
+    color: #219a18;
+}
+.statusO{
+    color: #d52222;
+}

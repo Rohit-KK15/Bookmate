@@ -1,0 +1,48 @@
+.backg{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+}
+
+.card-body{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    height: 60px;
+    font-size: 70px;
+}
+
+.card-body h2{
+    color:rgb(245, 246, 247);
+    -webkit-text-stroke-width: 1px;   
+    -webkit-text-stroke-color: rgb(249, 247, 247); 
+}
+.span9 {
+    height: 10px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.span9 p{
+    word-spacing: normal;
+    font-size: large;
+}
+.card{
+    font-size: large;
+
+}
+.card-title{
+    color: rgb(3, 3, 3);
+}
+.card-img-top{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.admintitle h2{
+    margin-top: 100px;
+    margin-left: 550px;
+}
